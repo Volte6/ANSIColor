@@ -6,7 +6,9 @@ A basic class that makes adding ANSI Standard colors and some peripheral ANSI es
 
 Include the class in your project:
 
+```
 include_once('/path/to/ANSIColor.class.php');
+```
 
 ### Prerequisites
 
