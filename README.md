@@ -19,7 +19,7 @@ It's best to have multibyte string functions compiled in your version of PHP, bu
 Outputting colored foreground text:
 
 ```
-echo ANSIColor::parse('<ansi fg="red">RED <ansi fg="green bold="true">(GREEN NESTED)</ansi> Text</ansi>');
+echo ANSIColor::parse('<ansi fg="red">RED <ansi fg="green" bold="true">(GREEN NESTED)</ansi> Text</ansi>');
 ```
 
 Outputting colored foreground AND background text:
@@ -31,7 +31,7 @@ echo ANSIColor::parse('<ansi fg="red" bg="white" bold="true" boldbg="true">Some 
 Getting the actual length of text:
 
 ```
-echo ANSIColor::strlen('<ansi fg="red">RED <ansi fg="green bold="true">(GREEN NESTED)</ansi> Text</ansi>');
+echo ANSIColor::strlen('<ansi fg="red">RED <ansi fg="green" bold="true">(GREEN NESTED)</ansi> Text</ansi>');
 ```
 
 Underlining Text:
